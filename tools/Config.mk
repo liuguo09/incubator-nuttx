@@ -165,7 +165,7 @@ endif
   DIRUNLINK ?= $(TOPDIR)$(DELIM)tools$(DELIM)unlink.bat
 else
 ifeq ($(CONFIG_CYGWIN_WINTOOL),y)
-  DIRLINK   ?= $(TOPDIR)$(DELIM)tools$(DELIM)copydir.sh
+  DIRLINK   ?= $(TOPDIR)$(DELIM)tools$(DELIM)link.sh
 else ifeq ($(CONFIG_WINDOWS_MSYS),y)
   DIRLINK   ?= $(TOPDIR)$(DELIM)tools$(DELIM)copydir.sh
 else
